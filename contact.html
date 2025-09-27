@@ -1,0 +1,70 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact — Yanina</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html#hero" aria-label="Home">Home</a>
+
+            <!-- burger button -->
+            <button class="burger" type="button" aria-label="Toggle menu" aria-controls="primary-nav"
+                aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <nav class="nav" id="primary-nav" aria-label="Primary">
+            <ul class="nav-list">
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#certs">Certifications</a></li>
+                <li><a href="index.html#journey">My journey</a></li>
+                <li aria-current="page"><a class="is-active" href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- photo block -->
+    <section class="contact-photo">
+        <img src="assets/images/Your paragraph text.png" alt="Yanina portrait" loading="eager">
+    </section>
+
+    <main class="section">
+        <div class="container narrow">
+            <h1 class="section-title">Get in touch</h1>
+            <p class="lead">Open to junior full-stack roles and collaboration.</p>
+
+            <div class="card">
+                <p><strong>Email:</strong> <a
+                        href="mailto:yaninaalekseeva123@gmail.com">yaninaalekseeva123@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/YaninaHolubenko" target="_blank"
+                        rel="noopener">github.com/YaninaHolubenko</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yanina-holubenko-a6077b248"
+                        target="_blank" rel="noopener">linkedin.com/in/yanina-holubenko-a6077b248</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>© <time id="year"></time> Yanina. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js" defer></script>
+</body>
+
+</html>

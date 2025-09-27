@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yanina — Portfolio</title>
+  <meta name="description" content="Yanina Holubenko — full-stack developer portfolio.">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#hero" aria-label="Home">Home</a>
+
+      <!-- burger button -->
+      <button class="burger" type="button" aria-label="Toggle menu" aria-controls="primary-nav" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#journey">My journey</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-visual">
+          <img class="hero-base" src="assets/images/7657399.jpg"
+            alt="Workspace with laptop, tulips, coffee and notebook." loading="eager">
+          <figure class="arch" aria-hidden="true">
+            <img src="assets/images/2025-09-26_14-56-45.jpg" alt="" loading="eager">
+          </figure>
+        </div>
+
+        <div class="hero-copy">
+          <h1 id="hero-title" class="display">
+            <span>FULL-STACK DEVELOPER</span>
+          </h1>
+          <p class="eyebrow">YANINA HOLUBENKO</p>
+          <p class="lead">
+            Hi, I’m Yanina — a full-stack developer. I create responsive interfaces with React and build reliable back
+            ends with Node/Express and PostgreSQL, always aiming for clean code and practical solutions.
+          </p>
+          <div class="cta">
+            <a class="btn" href="#projects">See work</a>
+            <a class="btn ghost" href="contact.html">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MY JOURNEY -->
+    <section id="journey" class="section journey" aria-labelledby="journey-title">
+      <div class="container journey-grid">
+        <div class="journey-copy">
+          <h2 id="journey-title" class="journey-heading reveal">
+            <span>MY</span><br><span>JOURNEY</span>
+          </h2>
+
+          <p class="journey-sub reveal">
+            I specialize in building thoughtful web products with a clean UI and dependable back end.
+          </p>
+
+          <p class="journey-text reveal">
+            I completed a Full-Stack Engineer path, strengthened my JavaScript foundation, and learned to connect React
+            front ends with Node/Express APIs and PostgreSQL databases. I enjoy turning ideas into simple, usable
+            features and I keep learning every week.
+          </p>
+        </div>
+
+        <figure class="journey-arch reveal" aria-hidden="true">
+          <img src="assets/images/6177608.jpg" alt="">
+        </figure>
+      </div>
+    </section>
+
+    <!-- MY SKILLS -->
+    <section id="skills" class="section skills" aria-labelledby="skills-title">
+      <div class="container skills-grid">
+        <h2 id="skills-title" class="skills-heading reveal">MY<br>SKILLS</h2>
+
+        <figure class="skills-media reveal" aria-hidden="true">
+          <img src="assets/images/-92904.jpg" alt="">
+        </figure>
+
+        <div class="skills-columns">
+          <div class="skills-col reveal">
+            <h3>Core</h3>
+            <ul class="bullets">
+              <li>HTML5, CSS3 (responsive layouts)</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+
+          <div class="skills-col reveal">
+            <h3>Back end &amp; Data</h3>
+            <ul class="bullets">
+              <li>Node.js, Express (REST APIs, auth)</li>
+              <li>PostgreSQL (schema design, queries)</li>
+              <li>Git &amp; GitHub</li>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C#</li>
+            </ul>
+          </div>
+          <div class="skills-col reveal">
+            <h3>Other Tools &amp; Frameworks</h3>
+            <ul class="bullets">
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title reveal">Projects</h2>
+
+        <ul class="project-list">
+          <li class="reveal">
+            <article class="project">
+              <figure>
+                <img src="assets/images/Reddit.png" alt="Reddit-like client preview." loading="lazy">
+                <figcaption>
+                  <h3>Reddit-style Client</h3>
+                  <p>Responsive client with search and comments.</p>
+                  <div class="sr-only" id="ts1">Tech stack</div>
+                  <ul class="tags" aria-labelledby="ts1">
+                    <li>React</li>
+                    <li>Redux Toolkit</li>
+                    <li>React Router</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                  </ul>
+                  <p class="actions">
+                    <a class="btn sm" href="https://yaninaholubenko.github.io/reddit-client/" target="_blank"
+                      rel="noopener">Live</a>
+                    <a class="btn sm ghost" href="https://github.com/YaninaHolubenko/reddit-client.git" target="_blank"
+                      rel="noopener">GitHub</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+
+          <li class="reveal">
+            <article class="project">
+              <figure>
+                <img src="assets/images/iStore-API.png" alt="E-commerce REST API preview." loading="lazy">
+                <figcaption>
+                  <h3>E-commerce REST API</h3>
+                  <p>Full-stack store app with authentication, carts, orders and Stripe checkout.</p>
+                  <div class="sr-only" id="ts2">Tech stack</div>
+                  <ul class="tags" aria-labelledby="ts2">
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                    <li>Knex</li>
+                    <li>React</li>
+                    <li>Swagger</li>
+                  </ul>
+                  <p class="actions">
+                    <a class="btn sm" href="https://store-client-ltdg.onrender.com/" target="_blank"
+                      rel="noopener">Live</a>
+                    <a class="btn sm ghost" href="https://github.com/YaninaHolubenko/store-api.git" target="_blank"
+                      rel="noopener">GitHub</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+
+          <li class="reveal">
+            <article class="project">
+              <figure>
+                <img src="assets/images/to-do.png" alt="To-Do app preview." loading="lazy">
+                <figcaption>
+                  <h3>To-Do App</h3>
+                  <p>Full-stack PERN task manager.</p>
+                  <div class="sr-only" id="ts3">Tech stack</div>
+                  <ul class="tags" aria-labelledby="ts3">
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                    <li>JWT</li>
+                    <li>Framer Motion</li>
+                  </ul>
+                  <p class="actions">
+                    <a class="btn sm" href="#" target="_blank" rel="noopener">Live</a>
+                    <a class="btn sm ghost" href="https://github.com/YaninaHolubenko/todo-app.git" target="_blank"
+                      rel="noopener">GitHub</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+
+          <li class="reveal">
+            <article class="project">
+              <figure>
+                <img src="assets/images/portfolio.png" alt="This portfolio site preview." loading="lazy">
+                <figcaption>
+                  <h3>Portfolio</h3>
+                  <p>Static site with scroll reveals and clean typography.</p>
+                  <div class="sr-only" id="ts4">Tech stack</div>
+                  <ul class="tags" aria-labelledby="ts4">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                  </ul>
+                  <p class="actions">
+                    <a class="btn sm" href="#" target="_blank" rel="noopener">Live</a>
+                    <a class="btn sm ghost" href="https://github.com/YaninaHolubenko/yanina-portfolio.git"
+                      target="_blank" rel="noopener">GitHub</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certs" class="section" aria-labelledby="certs-title">
+      <div class="container">
+        <h2 id="certs-title" class="section-title reveal">Certifications</h2>
+        <ul class="cert-list">
+          <li class="reveal">
+            <article class="cert">
+              <h3>JavaScript Essentials</h3>
+              <a class="btn sm ghost" href="assets/certificates/299411716538067_certificate_of_completion.pdf"
+                target="_blank" rel="noopener">View PDF</a>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="cert">
+              <h3>Introduction to Python</h3>
+              <a class="btn sm ghost" href="assets/certificates/299411716538154_certificate_of_completion.pdf"
+                target="_blank" rel="noopener">View PDF</a>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="cert">
+              <h3>HTML5 &amp; CSS3 Web Design Fundamentals with JavaScript</h3>
+              <a class="btn sm ghost" href="assets/certificates/299411716538160_certificate_of_completion.pdf"
+                target="_blank" rel="noopener">View PDF</a>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="cert">
+              <h3>Codecademy — Full-Stack Engineer Career Path</h3>
+              <a class="btn sm ghost" href="assets/certificates/java9410395610's profile _ Codecademy.pdf"
+                target="_blank" rel="noopener">Profile PDF</a>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title" class="section-title reveal">Let’s build something useful.</h2>
+        <a class="btn" href="contact.html">Contact me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <time id="year"></time> Yanina. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+
+</html>
