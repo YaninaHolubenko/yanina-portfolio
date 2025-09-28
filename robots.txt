@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yaninaholubenko.github.io/yanina-portfolio/sitemap.xml

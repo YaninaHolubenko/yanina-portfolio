@@ -5,7 +5,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact Yanina — junior full-stack developer. Email, GitHub, LinkedIn for collaboration and roles.">
     <title>Contact — Yanina</title>
+
+    <!-- Preconnects to speed up Google Fonts used via CSS @import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="styles/base.css">
 </head>
 
@@ -15,8 +21,7 @@
             <a class="logo" href="index.html#hero" aria-label="Home">Home</a>
 
             <!-- burger button -->
-            <button class="burger" type="button" aria-label="Toggle menu" aria-controls="primary-nav"
-                aria-expanded="false">
+            <button class="burger" type="button" aria-label="Toggle menu" aria-controls="primary-nav" aria-expanded="false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -26,20 +31,19 @@
             </button>
 
             <nav class="nav" id="primary-nav" aria-label="Primary">
-            <ul class="nav-list">
-                <li><a href="index.html#projects">Projects</a></li>
-                <li><a href="index.html#certs">Certifications</a></li>
-                <li><a href="index.html#journey">My journey</a></li>
-                <li aria-current="page"><a class="is-active" href="contact.html">Contact</a></li>
-            </ul>
+                <ul class="nav-list">
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#certs">Certifications</a></li>
+                    <li><a href="index.html#journey">My journey</a></li>
+                    <li><a class="is-active" href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-
     <!-- photo block -->
     <section class="contact-photo">
-        <img src="assets/images/Your paragraph text.png" alt="Yanina portrait" loading="eager">
+        <img src="assets/images/Your paragraph text.png" alt="Yanina portrait" loading="eager" decoding="async">
     </section>
 
     <main class="section">
@@ -48,12 +52,9 @@
             <p class="lead">Open to junior full-stack roles and collaboration.</p>
 
             <div class="card">
-                <p><strong>Email:</strong> <a
-                        href="mailto:yaninaalekseeva123@gmail.com">yaninaalekseeva123@gmail.com</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/YaninaHolubenko" target="_blank"
-                        rel="noopener">github.com/YaninaHolubenko</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yanina-holubenko-a6077b248"
-                        target="_blank" rel="noopener">linkedin.com/in/yanina-holubenko-a6077b248</a></p>
+                <p><strong>Email:</strong> <a href="mailto:yaninaalekseeva123@gmail.com">yaninaalekseeva123@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/YaninaHolubenko" target="_blank" rel="noopener">github.com/YaninaHolubenko</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yanina-holubenko-a6077b248" target="_blank" rel="noopener">linkedin.com/in/yanina-holubenko-a6077b248</a></p>
             </div>
         </div>
     </main>
@@ -66,5 +67,4 @@
 
     <script src="scripts/main.js" defer></script>
 </body>
-
 </html>

@@ -45,7 +45,7 @@ img{
 .section{padding:clamp(2rem,5vw,4rem) 0}
 .section-title{font-family:var(--font-serif);font-weight:600;font-size:clamp(1.8rem,3.5vw,2.4rem);margin:0 0 1rem}
 .lead{max-width:64ch}
-.more{margin-top:1rem}
+
 
 /* Links/Buttons */
 a{color:inherit;text-decoration:none}
