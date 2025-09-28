@@ -6,7 +6,7 @@ A clean, responsive portfolio website to showcase selected projects, skills, and
 
 ## Live
 
-- **Production:** _to be added once GitHub Pages is enabled for this repo._
+- **Production:** https://yaninaholubenko.github.io/yanina-portfolio
 - **Repository:** https://github.com/YaninaHolubenko/yanina-portfolio
 
 ## Features
