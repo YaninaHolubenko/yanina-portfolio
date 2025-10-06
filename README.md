@@ -17,22 +17,6 @@ A clean, responsive portfolio website to showcase selected projects, skills, and
 - 🎯 **Scroll reveal** animations via `IntersectionObserver` (`.reveal` → `.is-visible`).
 - 🔗 **Project cards** include *Live* and *GitHub* links (open safely with `rel="noopener"`).
 - 🪪 **Certificates** section with links to PDF proofs.
-- 🛡️ **Basic a11y:** all images include `alt`, external links use `rel="noopener"` when `target="_blank"`.
-
-## Project Structure
-
-```
-.
-├── index.html
-├── contact.html
-├── styles/
-│   └── base.css
-├── scripts/
-│   └── main.js
-└── assets/
-    ├── images/        # project thumbnails & photography
-    └── certificates/  # PDF certificates
-```
 
 ## Getting Started (Local)
 
